@@ -1,0 +1,1275 @@
+2024-11-06 05:53:10.419 | INFO     | __main__:setup_browser:39 - Browser setup completed successfully
+2024-11-06 05:53:10.420 | INFO     | __main__:main:56 - Facebook Ads Collector initialized successfully
+2024-11-06 05:56:14.819 | INFO     | __main__:setup_browser:57 - Browser setup completed successfully
+2024-11-06 05:56:14.820 | INFO     | __main__:main:100 - Facebook Ads Collector initialized successfully
+2024-11-06 05:56:59.074 | INFO     | __main__:get_user_input:76 - Validated keywords: ['car detailing', 'car tuning']
+2024-11-06 05:56:59.075 | INFO     | __main__:main:104 - Starting search with parameters: ['car detailing', 'car tuning']
+2024-11-06 05:57:20.085 | INFO     | __main__:setup_browser:57 - Browser setup completed successfully
+2024-11-06 05:57:20.086 | INFO     | __main__:main:100 - Facebook Ads Collector initialized successfully
+2024-11-06 05:57:31.135 | INFO     | __main__:get_user_input:76 - Validated keywords: ['car detailing', 'car tuning']
+2024-11-06 05:57:31.136 | INFO     | __main__:main:104 - Starting search with parameters: ['car detailing', 'car tuning']
+2024-11-06 06:06:45.501 | INFO     | __main__:setup_browser:63 - Browser setup completed successfully
+2024-11-06 06:06:45.506 | INFO     | __main__:main:142 - Facebook Ads Collector initialized successfully
+2024-11-06 06:06:52.390 | INFO     | __main__:get_user_input:82 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:06:52.391 | INFO     | __main__:main:146 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:06:52.391 | INFO     | __main__:search_ads_library:99 - Searching for keyword: digital marketing
+2024-11-06 06:07:07.337 | ERROR    | __main__:search_ads_library:128 - Error during ads library search: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:07:07.339 | ERROR    | __main__:main:152 - Failed to initialize the application: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:09:18.867 | INFO     | __main__:setup_browser:64 - Browser setup completed successfully
+2024-11-06 06:09:18.868 | INFO     | __main__:main:199 - Facebook Ads Collector initialized successfully
+2024-11-06 06:09:24.101 | INFO     | __main__:get_user_input:83 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:09:24.101 | INFO     | __main__:main:203 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:09:24.102 | INFO     | __main__:search_ads_library:100 - Searching for keyword: digital marketing
+2024-11-06 06:09:27.283 | INFO     | __main__:search_ads_library:104 - Waiting for page to load completely...
+2024-11-06 06:09:58.842 | ERROR    | __main__:search_ads_library:180 - Error searching for keyword 'digital marketing': Could not find search input element
+2024-11-06 06:09:58.843 | INFO     | __main__:search_ads_library:100 - Searching for keyword: social media
+2024-11-06 06:10:01.956 | INFO     | __main__:search_ads_library:104 - Waiting for page to load completely...
+2024-11-06 06:10:29.891 | ERROR    | __main__:search_ads_library:180 - Error searching for keyword 'social media': Could not find search input element
+2024-11-06 06:10:29.892 | INFO     | __main__:search_ads_library:100 - Searching for keyword: advertising
+2024-11-06 06:10:29.892 | ERROR    | __main__:search_ads_library:185 - Error during ads library search: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CCE00B]
+	(No symbol) [0x00D55F4F]
+	(No symbol) [0x00D68E99]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:10:29.894 | ERROR    | __main__:main:209 - Failed to initialize the application: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CCE00B]
+	(No symbol) [0x00D55F4F]
+	(No symbol) [0x00D68E99]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:11:46.455 | INFO     | __main__:setup_browser:70 - Browser setup completed successfully
+2024-11-06 06:11:46.456 | INFO     | __main__:main:209 - Facebook Ads Collector initialized successfully
+2024-11-06 06:11:49.460 | INFO     | __main__:get_user_input:89 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:11:49.461 | INFO     | __main__:main:213 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:11:49.461 | INFO     | __main__:search_ads_library:106 - Searching for keyword: digital marketing
+2024-11-06 06:11:52.471 | INFO     | __main__:search_ads_library:111 - Waiting for page to load completely...
+2024-11-06 06:12:23.838 | INFO     | __main__:search_ads_library:136 - Found search input using selector: [role='searchbox']
+2024-11-06 06:12:24.077 | ERROR    | __main__:search_ads_library:190 - Error searching for keyword 'digital marketing': Message: invalid element state
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC14D]
+	(No symbol) [0x00D257E3]
+	(No symbol) [0x00D4FE8C]
+	(No symbol) [0x00D23C04]
+	(No symbol) [0x00D50124]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:12:24.079 | INFO     | __main__:search_ads_library:106 - Searching for keyword: social media
+2024-11-06 06:12:26.959 | INFO     | __main__:search_ads_library:111 - Waiting for page to load completely...
+2024-11-06 06:12:31.964 | ERROR    | __main__:search_ads_library:190 - Error searching for keyword 'social media': Could not find search input element
+2024-11-06 06:12:31.965 | INFO     | __main__:search_ads_library:106 - Searching for keyword: advertising
+2024-11-06 06:12:31.966 | ERROR    | __main__:search_ads_library:195 - Error during ads library search: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CCE00B]
+	(No symbol) [0x00D55F4F]
+	(No symbol) [0x00D68E99]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:12:31.968 | ERROR    | __main__:main:219 - Failed to initialize the application: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CCE00B]
+	(No symbol) [0x00D55F4F]
+	(No symbol) [0x00D68E99]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:14:18.228 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:14:18.229 | INFO     | __main__:main:227 - Facebook Ads Collector initialized successfully
+2024-11-06 06:14:20.635 | INFO     | __main__:get_user_input:106 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:14:20.635 | INFO     | __main__:main:231 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:14:20.635 | INFO     | __main__:search_ads_library:123 - Searching for keyword: digital marketing
+2024-11-06 06:14:23.623 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:14:26.624 | INFO     | __main__:search_ads_library:135 - Attempting to locate search input...
+2024-11-06 06:14:26.688 | INFO     | __main__:search_ads_library:184 - Found search input element
+2024-11-06 06:14:26.835 | ERROR    | __main__:search_ads_library:207 - Error searching for keyword 'digital marketing': Message: javascript error: {"status":60,"value":"[object HTMLInputElement] has no size and location"}
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CF1D58]
+	(No symbol) [0x00CF35E8]
+	(No symbol) [0x00CF3660]
+	(No symbol) [0x00D3329E]
+	(No symbol) [0x00D32845]
+	(No symbol) [0x00D7198A]
+	(No symbol) [0x00D4FE8C]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:14:27.033 | INFO     | __main__:search_ads_library:123 - Searching for keyword: social media
+2024-11-06 06:14:29.720 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:14:32.721 | INFO     | __main__:search_ads_library:135 - Attempting to locate search input...
+2024-11-06 06:14:32.789 | INFO     | __main__:search_ads_library:184 - Found search input element
+2024-11-06 06:14:32.955 | ERROR    | __main__:search_ads_library:207 - Error searching for keyword 'social media': Message: javascript error: {"status":60,"value":"[object HTMLInputElement] has no size and location"}
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CF1D58]
+	(No symbol) [0x00CF35E8]
+	(No symbol) [0x00CF3660]
+	(No symbol) [0x00D3329E]
+	(No symbol) [0x00D32845]
+	(No symbol) [0x00D7198A]
+	(No symbol) [0x00D4FE8C]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:14:33.163 | INFO     | __main__:search_ads_library:123 - Searching for keyword: advertising
+2024-11-06 06:14:35.732 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:14:38.733 | INFO     | __main__:search_ads_library:135 - Attempting to locate search input...
+2024-11-06 06:14:38.807 | INFO     | __main__:search_ads_library:184 - Found search input element
+2024-11-06 06:14:38.957 | ERROR    | __main__:search_ads_library:207 - Error searching for keyword 'advertising': Message: javascript error: {"status":60,"value":"[object HTMLInputElement] has no size and location"}
+  (Session info: chrome=130.0.6723.93)
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00CF1D58]
+	(No symbol) [0x00CF35E8]
+	(No symbol) [0x00CF3660]
+	(No symbol) [0x00D3329E]
+	(No symbol) [0x00D32845]
+	(No symbol) [0x00D7198A]
+	(No symbol) [0x00D4FE8C]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:16:10.995 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:16:10.996 | INFO     | __main__:main:224 - Facebook Ads Collector initialized successfully
+2024-11-06 06:16:13.723 | INFO     | __main__:get_user_input:106 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:16:13.724 | INFO     | __main__:main:228 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:16:13.724 | INFO     | __main__:search_ads_library:123 - Searching for keyword: digital marketing
+2024-11-06 06:16:16.446 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:16:21.528 | INFO     | __main__:search_ads_library:137 - Attempting to locate search input...
+2024-11-06 06:16:55.183 | ERROR    | __main__:search_ads_library:204 - Error searching for keyword 'digital marketing': Could not find search input element
+2024-11-06 06:16:55.399 | INFO     | __main__:search_ads_library:123 - Searching for keyword: social media
+2024-11-06 06:16:58.055 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:17:03.130 | INFO     | __main__:search_ads_library:137 - Attempting to locate search input...
+2024-11-06 06:17:16.373 | INFO     | __main__:search_ads_library:169 - Found search input using selector: input[type='search']
+2024-11-06 06:17:16.373 | INFO     | __main__:search_ads_library:175 - Found search input element
+2024-11-06 06:17:23.594 | INFO     | __main__:search_ads_library:193 - Entered keyword: social media
+2024-11-06 06:17:28.777 | INFO     | __main__:search_ads_library:199 - Saved debug page for: social media
+2024-11-06 06:17:28.778 | INFO     | __main__:search_ads_library:123 - Searching for keyword: advertising
+2024-11-06 06:17:32.463 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:17:37.543 | INFO     | __main__:search_ads_library:137 - Attempting to locate search input...
+2024-11-06 06:18:11.615 | ERROR    | __main__:search_ads_library:204 - Error searching for keyword 'advertising': Could not find search input element
+2024-11-06 06:20:48.266 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:20:48.267 | INFO     | __main__:main:295 - Facebook Ads Collector initialized successfully
+2024-11-06 06:21:18.251 | ERROR    | __main__:get_user_input:110 - Invalid input: 1 validation error for SearchParameters
+keywords
+  Value error, Keyword '& c:/Users/micha/Desktop/CURSOR/cursor_advanced/venv/Scripts/python.exe c:/Users/micha/Desktop/CURSOR/cursor_advanced/main.py' must be between 2 and 50 characters [type=value_error, input_value=['& c:/Users/micha/Deskto...ursor_advanced/main.py'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/value_error
+2024-11-06 06:21:26.629 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:21:26.641 | INFO     | __main__:main:295 - Facebook Ads Collector initialized successfully
+2024-11-06 06:21:31.217 | INFO     | __main__:get_user_input:106 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:21:31.217 | INFO     | __main__:main:299 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:21:31.217 | INFO     | __main__:search_ads_library:123 - Searching for keyword: digital marketing
+2024-11-06 06:21:34.789 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:21:39.866 | INFO     | __main__:search_ads_library:138 - Attempting to locate category dropdown...
+2024-11-06 06:22:01.677 | ERROR    | __main__:search_ads_library:276 - Error searching for keyword 'digital marketing': Could not find category dropdown
+2024-11-06 06:22:01.889 | INFO     | __main__:search_ads_library:123 - Searching for keyword: social media
+2024-11-06 06:22:04.902 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:22:09.972 | INFO     | __main__:search_ads_library:138 - Attempting to locate category dropdown...
+2024-11-06 06:22:33.884 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:22:33.885 | INFO     | __main__:main:295 - Facebook Ads Collector initialized successfully
+2024-11-06 06:22:37.147 | INFO     | __main__:get_user_input:106 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:22:37.147 | INFO     | __main__:main:299 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:22:37.148 | INFO     | __main__:search_ads_library:123 - Searching for keyword: digital marketing
+2024-11-06 06:22:40.715 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:22:45.791 | INFO     | __main__:search_ads_library:138 - Attempting to locate category dropdown...
+2024-11-06 06:23:07.772 | ERROR    | __main__:search_ads_library:276 - Error searching for keyword 'digital marketing': Could not find category dropdown
+2024-11-06 06:23:07.984 | INFO     | __main__:search_ads_library:123 - Searching for keyword: social media
+2024-11-06 06:23:10.829 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:23:15.834 | INFO     | __main__:search_ads_library:138 - Attempting to locate category dropdown...
+2024-11-06 06:23:37.015 | ERROR    | __main__:search_ads_library:276 - Error searching for keyword 'social media': Could not find category dropdown
+2024-11-06 06:23:37.235 | INFO     | __main__:search_ads_library:123 - Searching for keyword: advertising
+2024-11-06 06:23:40.189 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:23:45.263 | INFO     | __main__:search_ads_library:138 - Attempting to locate category dropdown...
+2024-11-06 06:24:07.305 | ERROR    | __main__:search_ads_library:276 - Error searching for keyword 'advertising': Could not find category dropdown
+2024-11-06 06:29:30.159 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:29:30.160 | INFO     | __main__:main:219 - Facebook Ads Collector initialized successfully
+2024-11-06 06:29:38.432 | INFO     | __main__:get_user_input:106 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:29:38.432 | INFO     | __main__:main:223 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:29:38.433 | INFO     | __main__:search_ads_library:123 - Searching for keyword: digital marketing
+2024-11-06 06:29:41.674 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:29:46.738 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 06:29:56.818 | ERROR    | __main__:search_ads_library:200 - Error searching for keyword 'digital marketing': Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:29:57.029 | INFO     | __main__:search_ads_library:123 - Searching for keyword: social media
+2024-11-06 06:30:00.029 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:30:05.096 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 06:30:15.191 | ERROR    | __main__:search_ads_library:200 - Error searching for keyword 'social media': Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:30:15.403 | INFO     | __main__:search_ads_library:123 - Searching for keyword: advertising
+2024-11-06 06:30:17.926 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:30:23.029 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 06:30:33.176 | ERROR    | __main__:search_ads_library:200 - Error searching for keyword 'advertising': Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:52:26.404 | INFO     | __main__:setup_browser:87 - Browser setup completed successfully
+2024-11-06 06:52:26.405 | INFO     | __main__:main:219 - Facebook Ads Collector initialized successfully
+2024-11-06 06:52:30.799 | INFO     | __main__:get_user_input:106 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:52:30.800 | INFO     | __main__:main:223 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 06:52:30.800 | INFO     | __main__:search_ads_library:123 - Searching for keyword: digital marketing
+2024-11-06 06:52:42.095 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:52:47.138 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 06:52:57.148 | ERROR    | __main__:search_ads_library:200 - Error searching for keyword 'digital marketing': Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:52:57.377 | INFO     | __main__:search_ads_library:123 - Searching for keyword: social media
+2024-11-06 06:52:59.756 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:53:04.848 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 06:53:14.880 | ERROR    | __main__:search_ads_library:200 - Error searching for keyword 'social media': Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 06:53:15.081 | INFO     | __main__:search_ads_library:123 - Searching for keyword: advertising
+2024-11-06 06:53:17.574 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 06:53:22.642 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 06:53:32.670 | ERROR    | __main__:search_ads_library:200 - Error searching for keyword 'advertising': Message: 
+Stacktrace:
+	GetHandleVerifier [0x00E83913+24035]
+	(No symbol) [0x00E0BCA4]
+	(No symbol) [0x00CEC2D3]
+	(No symbol) [0x00D2DC86]
+	(No symbol) [0x00D2DECB]
+	(No symbol) [0x00D6B9D2]
+	(No symbol) [0x00D4FED4]
+	(No symbol) [0x00D6953F]
+	(No symbol) [0x00D4FC26]
+	(No symbol) [0x00D2218C]
+	(No symbol) [0x00D2310D]
+	GetHandleVerifier [0x01129743+2800659]
+	GetHandleVerifier [0x011842FE+3172302]
+	GetHandleVerifier [0x0117CF12+3142626]
+	GetHandleVerifier [0x00F26CC0+692624]
+	(No symbol) [0x00E14CBD]
+	(No symbol) [0x00E119C8]
+	(No symbol) [0x00E11B60]
+	(No symbol) [0x00E04010]
+	BaseThreadInitThunk [0x75417BA9+25]
+	RtlInitializeExceptionChain [0x7766C0CB+107]
+	RtlClearBits [0x7766C04F+191]
+
+2024-11-06 07:01:00.985 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:01:04.598 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:01:04.598 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:01:06.391 | INFO     | __main__:search_ads_library:71 - Searching for keyword: digital marketing
+2024-11-06 07:01:08.947 | INFO     | __main__:search_ads_library:75 - Waiting for page to load completely...
+2024-11-06 07:01:13.145 | INFO     | __main__:search_ads_library:90 - Setting country to United States...
+2024-11-06 07:01:23.465 | ERROR    | __main__:search_ads_library:139 - Error during ads library search: Locator.click: Target page, context or browser has been closed
+Call log:
+waiting for locator("[tf623_id='2013']")
+
+2024-11-06 07:01:23.700 | ERROR    | __main__:main:172 - Failed to initialize the application: Page.screenshot: Target page, context or browser has been closed
+2024-11-06 07:01:59.335 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:02:03.365 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:02:03.366 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:02:04.716 | ERROR    | __main__:main:188 - Failed to initialize the application: Browser.new_context() got an unexpected keyword argument 'accept_language'
+2024-11-06 07:02:16.171 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:02:17.520 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:02:17.520 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:02:18.511 | ERROR    | __main__:main:188 - Failed to initialize the application: Browser.new_context() got an unexpected keyword argument 'accept_language'
+2024-11-06 07:02:50.416 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:02:52.974 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:02:52.975 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:02:54.065 | ERROR    | __main__:main:190 - Failed to initialize the application: Browser.new_context() got an unexpected keyword argument 'language'
+2024-11-06 07:04:46.266 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:04:49.130 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:04:49.130 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:04:49.861 | INFO     | __main__:search_ads_library:71 - Searching for keyword: digital marketing
+2024-11-06 07:04:53.414 | INFO     | __main__:search_ads_library:75 - Waiting for page to load completely...
+2024-11-06 07:04:57.510 | INFO     | __main__:search_ads_library:90 - Setting country to Stany Zjednoczone...
+2024-11-06 07:05:28.805 | ERROR    | __main__:search_ads_library:139 - Error during ads library search: Locator.click: Target page, context or browser has been closed
+Call log:
+waiting for locator("[tf623_id='1549']")
+
+2024-11-06 07:05:29.025 | ERROR    | __main__:main:172 - Failed to initialize the application: Page.screenshot: Target page, context or browser has been closed
+2024-11-06 07:05:44.938 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:05:45.983 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:05:45.983 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:05:46.996 | ERROR    | __main__:main:190 - Failed to initialize the application: Browser.new_context() got an unexpected keyword argument 'language'
+2024-11-06 07:06:15.807 | INFO     | __main__:main:154 - Facebook Ads Collector initialized successfully
+2024-11-06 07:06:16.703 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:06:16.704 | INFO     | __main__:main:158 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:06:17.506 | INFO     | __main__:search_ads_library:71 - Searching for keyword: digital marketing
+2024-11-06 07:06:20.409 | INFO     | __main__:search_ads_library:75 - Waiting for page to load completely...
+2024-11-06 07:06:24.531 | INFO     | __main__:search_ads_library:90 - Setting country to United States...
+2024-11-06 07:06:31.548 | INFO     | __main__:search_ads_library:106 - Setting ad category...
+2024-11-06 07:06:41.304 | INFO     | __main__:search_ads_library:131 - Searched for keyword: digital marketing
+2024-11-06 07:06:46.662 | INFO     | __main__:search_ads_library:136 - Saved screenshot for: digital marketing
+2024-11-06 07:06:46.663 | INFO     | __main__:search_ads_library:71 - Searching for keyword: social media
+2024-11-06 07:06:48.852 | INFO     | __main__:search_ads_library:75 - Waiting for page to load completely...
+2024-11-06 07:06:53.322 | INFO     | __main__:search_ads_library:90 - Setting country to United States...
+2024-11-06 07:07:00.325 | INFO     | __main__:search_ads_library:106 - Setting ad category...
+2024-11-06 07:07:09.475 | INFO     | __main__:search_ads_library:131 - Searched for keyword: social media
+2024-11-06 07:07:14.658 | INFO     | __main__:search_ads_library:136 - Saved screenshot for: social media
+2024-11-06 07:07:14.658 | INFO     | __main__:search_ads_library:71 - Searching for keyword: advertising
+2024-11-06 07:07:17.010 | INFO     | __main__:search_ads_library:75 - Waiting for page to load completely...
+2024-11-06 07:07:20.924 | INFO     | __main__:search_ads_library:90 - Setting country to United States...
+2024-11-06 07:07:28.193 | INFO     | __main__:search_ads_library:106 - Setting ad category...
+2024-11-06 07:07:37.374 | INFO     | __main__:search_ads_library:131 - Searched for keyword: advertising
+2024-11-06 07:07:42.486 | INFO     | __main__:search_ads_library:136 - Saved screenshot for: advertising
+2024-11-06 07:24:11.859 | INFO     | __main__:main:260 - Facebook Ads Collector initialized successfully
+2024-11-06 07:24:19.674 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:24:19.674 | INFO     | __main__:main:264 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:24:20.422 | INFO     | __main__:search_ads_library:173 - Searching for keyword: digital marketing
+2024-11-06 07:24:25.085 | INFO     | __main__:search_ads_library:177 - Waiting for page to load completely...
+2024-11-06 07:24:29.420 | INFO     | __main__:search_ads_library:192 - Setting country to United States...
+2024-11-06 07:25:06.409 | ERROR    | __main__:search_ads_library:245 - Error during ads library search: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[tf623_id='3013']")
+
+2024-11-06 07:25:06.741 | ERROR    | __main__:main:295 - Failed to initialize the application: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[tf623_id='3013']")
+
+2024-11-06 07:29:31.051 | INFO     | __main__:main:283 - Facebook Ads Collector initialized successfully
+2024-11-06 07:29:41.137 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:29:41.138 | INFO     | __main__:main:287 - Starting search with parameters: ['digital marketing', 'social media', 'advertising']
+2024-11-06 07:29:41.907 | INFO     | __main__:search_ads_library:173 - Searching for keyword: digital marketing
+2024-11-06 07:29:44.147 | INFO     | __main__:search_ads_library:177 - Waiting for page to load completely...
+2024-11-06 07:29:48.070 | INFO     | __main__:search_ads_library:189 - Setting country to United States...
+2024-11-06 07:30:05.944 | INFO     | __main__:search_ads_library:219 - Setting ad category...
+2024-11-06 07:30:22.173 | INFO     | __main__:search_ads_library:256 - Searched for keyword: digital marketing
+2024-11-06 07:30:27.416 | INFO     | __main__:search_ads_library:261 - Saved screenshot for: digital marketing
+2024-11-06 07:30:27.416 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:30:42.948 | ERROR    | __main__:extract_profile_links:165 - Error extracting profile links: This node is not a list
+2024-11-06 07:30:43.053 | ERROR    | __main__:search_ads_library:268 - Error during ads library search: This node is not a list
+2024-11-06 07:30:43.344 | ERROR    | __main__:main:318 - Failed to initialize the application: This node is not a list
+2024-11-06 07:32:10.439 | INFO     | __main__:main:240 - Facebook Ads Collector initialized successfully
+2024-11-06 07:32:16.160 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:32:16.160 | INFO     | __main__:main:244 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:32:16.879 | INFO     | __main__:search_ads_library:176 - Searching for keyword: digital marketing
+2024-11-06 07:32:21.737 | INFO     | __main__:search_ads_library:180 - Waiting for page to load completely...
+2024-11-06 07:32:25.393 | INFO     | __main__:search_ads_library:185 - Setting country to United States...
+2024-11-06 07:33:41.199 | INFO     | __main__:main:289 - Facebook Ads Collector initialized successfully
+2024-11-06 07:33:47.327 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:33:47.327 | INFO     | __main__:main:293 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:33:48.049 | INFO     | __main__:search_ads_library:176 - Searching for keyword: digital marketing
+2024-11-06 07:33:50.985 | INFO     | __main__:search_ads_library:180 - Waiting for page to load completely...
+2024-11-06 07:33:54.656 | INFO     | __main__:search_ads_library:185 - Setting country to United States...
+2024-11-06 07:34:11.572 | INFO     | __main__:search_ads_library:223 - Setting ad category...
+2024-11-06 07:34:21.658 | INFO     | __main__:search_ads_library:248 - Searching for keyword: digital marketing
+2024-11-06 07:34:26.176 | INFO     | __main__:search_ads_library:260 - Entered search term: digital marketing
+2024-11-06 07:34:31.178 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:34:53.851 | ERROR    | __main__:extract_profile_links:168 - Error extracting profile links: This node is not a list
+2024-11-06 07:34:53.973 | ERROR    | __main__:search_ads_library:274 - Error during ads library search: This node is not a list
+2024-11-06 07:34:54.247 | ERROR    | __main__:main:324 - Failed to initialize the application: This node is not a list
+2024-11-06 07:37:15.705 | INFO     | __main__:main:298 - Facebook Ads Collector initialized successfully
+2024-11-06 07:37:20.683 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:37:20.683 | INFO     | __main__:main:302 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:37:21.402 | INFO     | __main__:search_ads_library:185 - Searching for keyword: digital marketing
+2024-11-06 07:37:23.851 | INFO     | __main__:search_ads_library:189 - Waiting for page to load completely...
+2024-11-06 07:37:27.592 | INFO     | __main__:search_ads_library:194 - Setting country to United States...
+2024-11-06 07:37:44.994 | INFO     | __main__:search_ads_library:232 - Setting ad category...
+2024-11-06 07:37:55.291 | INFO     | __main__:search_ads_library:257 - Searching for keyword: digital marketing
+2024-11-06 07:37:59.860 | INFO     | __main__:search_ads_library:269 - Entered search term: digital marketing
+2024-11-06 07:38:04.862 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:38:09.863 | INFO     | __main__:extract_profile_links:76 - Scrolling to load more results...
+2024-11-06 07:38:19.087 | INFO     | __main__:process_page:98 - Found 1 sponsored posts
+2024-11-06 07:38:19.087 | ERROR    | __main__:extract_profile_links:177 - Error extracting profile links: This node is not a list
+2024-11-06 07:38:19.208 | ERROR    | __main__:search_ads_library:283 - Error during ads library search: This node is not a list
+2024-11-06 07:38:19.482 | ERROR    | __main__:main:333 - Failed to initialize the application: This node is not a list
+2024-11-06 07:40:55.925 | INFO     | __main__:main:293 - Facebook Ads Collector initialized successfully
+2024-11-06 07:40:59.501 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:40:59.502 | INFO     | __main__:main:297 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:41:00.204 | INFO     | __main__:search_ads_library:166 - Searching for keyword: digital marketing
+2024-11-06 07:41:02.789 | INFO     | __main__:search_ads_library:170 - Waiting for page to load completely...
+2024-11-06 07:41:06.607 | INFO     | __main__:search_ads_library:175 - Setting country to United States...
+2024-11-06 07:41:23.294 | INFO     | __main__:search_ads_library:213 - Setting ad category...
+2024-11-06 07:41:36.282 | INFO     | __main__:search_ads_library:252 - Searching for keyword: digital marketing
+2024-11-06 07:41:40.853 | INFO     | __main__:search_ads_library:264 - Entered search term: digital marketing
+2024-11-06 07:41:45.855 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:41:50.855 | INFO     | __main__:extract_profile_links:76 - Scrolling to load more results...
+2024-11-06 07:42:15.079 | INFO     | __main__:process_page:98 - Found 1 sponsored posts
+2024-11-06 07:42:15.080 | ERROR    | __main__:extract_profile_links:158 - Error extracting profile links: This node is not a list
+2024-11-06 07:42:15.285 | ERROR    | __main__:search_ads_library:278 - Error during ads library search: This node is not a list
+2024-11-06 07:42:15.569 | ERROR    | __main__:main:328 - Failed to initialize the application: This node is not a list
+2024-11-06 07:46:23.161 | INFO     | __main__:main:254 - Facebook Ads Collector initialized successfully
+2024-11-06 07:46:30.331 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:46:30.331 | INFO     | __main__:main:258 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:46:31.075 | INFO     | __main__:search_ads_library:127 - Searching for keyword: digital marketing
+2024-11-06 07:46:33.783 | INFO     | __main__:search_ads_library:131 - Waiting for page to load completely...
+2024-11-06 07:46:37.518 | INFO     | __main__:search_ads_library:136 - Setting country to United States...
+2024-11-06 07:46:56.099 | INFO     | __main__:search_ads_library:174 - Setting ad category...
+2024-11-06 07:47:09.530 | INFO     | __main__:search_ads_library:213 - Searching for keyword: digital marketing
+2024-11-06 07:47:13.947 | INFO     | __main__:search_ads_library:225 - Entered search term: digital marketing
+2024-11-06 07:47:18.948 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:47:37.385 | INFO     | __main__:extract_profile_links:93 - Found 1 ad cards
+2024-11-06 07:47:37.386 | ERROR    | __main__:extract_profile_links:119 - Error extracting profile links: This node is not a list
+2024-11-06 07:47:37.525 | ERROR    | __main__:search_ads_library:239 - Error during ads library search: This node is not a list
+2024-11-06 07:47:37.786 | ERROR    | __main__:main:289 - Failed to initialize the application: This node is not a list
+2024-11-06 07:50:05.832 | INFO     | __main__:main:254 - Facebook Ads Collector initialized successfully
+2024-11-06 07:50:09.348 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:50:09.349 | INFO     | __main__:main:258 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:50:10.072 | INFO     | __main__:search_ads_library:127 - Searching for keyword: digital marketing
+2024-11-06 07:50:13.322 | INFO     | __main__:search_ads_library:131 - Waiting for page to load completely...
+2024-11-06 07:50:16.961 | INFO     | __main__:search_ads_library:136 - Setting country to United States...
+2024-11-06 07:50:33.550 | INFO     | __main__:search_ads_library:174 - Setting ad category...
+2024-11-06 07:50:46.929 | INFO     | __main__:search_ads_library:213 - Searching for keyword: digital marketing
+2024-11-06 07:50:52.256 | INFO     | __main__:search_ads_library:225 - Entered search term: digital marketing
+2024-11-06 07:50:57.257 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:51:16.310 | INFO     | __main__:extract_profile_links:93 - Found sponsored posts
+2024-11-06 07:51:16.311 | ERROR    | __main__:extract_profile_links:119 - Error extracting profile links: This node is not a list
+2024-11-06 07:51:16.574 | ERROR    | __main__:search_ads_library:239 - Error during ads library search: This node is not a list
+2024-11-06 07:51:16.971 | ERROR    | __main__:main:295 - Failed to initialize the application: This node is not a list
+2024-11-06 07:53:33.624 | INFO     | __main__:main:271 - Facebook Ads Collector initialized successfully
+2024-11-06 07:53:37.582 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:53:37.583 | INFO     | __main__:main:275 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:53:38.324 | INFO     | __main__:search_ads_library:144 - Searching for keyword: digital marketing
+2024-11-06 07:53:41.060 | INFO     | __main__:search_ads_library:148 - Waiting for page to load completely...
+2024-11-06 07:53:44.785 | INFO     | __main__:search_ads_library:153 - Setting country to United States...
+2024-11-06 07:54:01.280 | INFO     | __main__:search_ads_library:191 - Setting ad category...
+2024-11-06 07:54:13.704 | INFO     | __main__:search_ads_library:230 - Searching for keyword: digital marketing
+2024-11-06 07:54:18.531 | INFO     | __main__:search_ads_library:242 - Entered search term: digital marketing
+2024-11-06 07:54:23.532 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:54:40.943 | INFO     | __main__:extract_profile_links:94 - Found sponsored posts
+2024-11-06 07:54:40.944 | ERROR    | __main__:extract_profile_links:136 - Error extracting profile links: This node is not a list
+2024-11-06 07:54:41.167 | ERROR    | __main__:search_ads_library:256 - Error during ads library search: This node is not a list
+2024-11-06 07:54:41.511 | ERROR    | __main__:main:312 - Failed to initialize the application: This node is not a list
+2024-11-06 07:55:40.910 | INFO     | __main__:main:264 - Facebook Ads Collector initialized successfully
+2024-11-06 07:55:43.640 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 07:55:43.641 | INFO     | __main__:main:268 - Starting search with parameters: ['digital marketing']
+2024-11-06 07:55:44.380 | INFO     | __main__:search_ads_library:137 - Searching for keyword: digital marketing
+2024-11-06 07:55:46.754 | INFO     | __main__:search_ads_library:141 - Waiting for page to load completely...
+2024-11-06 07:55:50.649 | INFO     | __main__:search_ads_library:146 - Setting country to United States...
+2024-11-06 07:56:06.773 | INFO     | __main__:search_ads_library:184 - Setting ad category...
+2024-11-06 07:56:19.498 | INFO     | __main__:search_ads_library:223 - Searching for keyword: digital marketing
+2024-11-06 07:56:22.891 | INFO     | __main__:search_ads_library:235 - Entered search term: digital marketing
+2024-11-06 07:56:27.892 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 07:56:39.578 | ERROR    | __main__:extract_profile_links:114 - Error processing company: 1001 AttributeNotFoundError: 
+            "click" not found in AgentQL response node:
+            {
+  "company_link": {
+    "href": {
+      "role": "link",
+      "tf623_id": "9533",
+      "html_tag": "a",
+      "name": "https://wa.link/xvivta",
+      "attributes": {
+        "target": "_blank",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2Fxvivta&h=AT2DM9r0R8Jiqr1So5qnOOSs3mnI43NeKUfxS0Dz-MR9fXcyCYUZRJFGJFtUbdVWpyUk-hpfqnTm7bLLs7Fhe0E6uT_By9Ksnp_XQkgl03rn9XepQbCEh3-STcD8K1mVUjTqLiWxJnpeBcILR4uA-w",
+        "rel": "nofollow noreferrer",
+        "data-lynx-mode": "hover"
+      }
+    },
+    "text": {
+      "role": "text",
+      "tf623_id": "9549",
+      "html_tag": "div",
+      "name": "Triada Marketing Digital",
+      "attributes": {
+        "class": "_4ik4 _4ik5"
+      }
+    }
+  }
+}
+            There could be a few reasons for this:
+            1. The element you are trying to access was not part of the original query. Make sure there are no typos in the name of the element you are trying to access. 
+
+            Query:
+            company_link(clickable link that appears above text "Sponsored") {
+  href
+  text
+}
+
+            Note that empty spaces and new lines are used to indicate distinct elements. Do verify that you are using empty spaces and new lines correctly in your query. If you want to use multiple words to describe the same element, please use underscores instead. I.e. "search_button".
+
+            2. You may be trying to execute an action on a container node. I.e. the following would raise this error:
+            Query:
+            {
+                footer {
+                    some_link
+                }
+            }
+
+            response.footer.click()
+
+            In the above example, footer is a container node and you are trying to click on it. You should access the child node instead. I.e. response.footer.some_link.click()
+
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 07:56:39.581 | INFO     | __main__:extract_profile_links:125 - Saved 0 unique profile links to results/profile_links_20241106_075639.txt
+2024-11-06 07:56:39.581 | INFO     | __main__:search_ads_library:242 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 07:56:39.804 | INFO     | __main__:search_ads_library:246 - Saved screenshot for: digital marketing
+2024-11-06 08:01:06.729 | INFO     | __main__:main:264 - Facebook Ads Collector initialized successfully
+2024-11-06 08:01:08.310 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 08:01:08.311 | INFO     | __main__:main:268 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:01:09.111 | INFO     | __main__:search_ads_library:137 - Searching for keyword: digital marketing
+2024-11-06 08:01:11.914 | INFO     | __main__:search_ads_library:141 - Waiting for page to load completely...
+2024-11-06 08:01:15.811 | INFO     | __main__:search_ads_library:146 - Setting country to United States...
+2024-11-06 08:01:39.194 | INFO     | __main__:search_ads_library:184 - Setting ad category...
+2024-11-06 08:01:51.845 | INFO     | __main__:search_ads_library:223 - Searching for keyword: digital marketing
+2024-11-06 08:01:55.920 | INFO     | __main__:search_ads_library:235 - Entered search term: digital marketing
+2024-11-06 08:02:00.921 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 08:02:17.623 | ERROR    | __main__:extract_profile_links:114 - Error processing company: 'Locator' object is not callable
+2024-11-06 08:02:17.624 | INFO     | __main__:extract_profile_links:125 - Saved 0 unique profile links to results/profile_links_20241106_080217.txt
+2024-11-06 08:02:17.624 | INFO     | __main__:search_ads_library:242 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:02:17.834 | INFO     | __main__:search_ads_library:246 - Saved screenshot for: digital marketing
+2024-11-06 08:03:22.856 | INFO     | __main__:main:265 - Facebook Ads Collector initialized successfully
+2024-11-06 08:03:27.295 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 08:03:27.295 | INFO     | __main__:main:269 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:03:28.037 | INFO     | __main__:search_ads_library:138 - Searching for keyword: digital marketing
+2024-11-06 08:03:30.946 | INFO     | __main__:search_ads_library:142 - Waiting for page to load completely...
+2024-11-06 08:03:34.803 | INFO     | __main__:search_ads_library:147 - Setting country to United States...
+2024-11-06 08:03:49.413 | INFO     | __main__:search_ads_library:185 - Setting ad category...
+2024-11-06 08:04:02.649 | INFO     | __main__:search_ads_library:224 - Searching for keyword: digital marketing
+2024-11-06 08:04:07.754 | INFO     | __main__:search_ads_library:236 - Entered search term: digital marketing
+2024-11-06 08:04:12.755 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 08:04:26.232 | INFO     | __main__:extract_profile_links:93 - Clicked company name
+2024-11-06 08:04:28.234 | INFO     | __main__:extract_profile_links:126 - Saved 0 unique profile links to results/profile_links_20241106_080428.txt
+2024-11-06 08:04:28.234 | INFO     | __main__:search_ads_library:243 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:04:28.450 | INFO     | __main__:search_ads_library:247 - Saved screenshot for: digital marketing
+2024-11-06 08:05:59.518 | INFO     | __main__:main:273 - Facebook Ads Collector initialized successfully
+2024-11-06 08:06:00.411 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 08:06:00.412 | INFO     | __main__:main:277 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:06:01.135 | INFO     | __main__:search_ads_library:146 - Searching for keyword: digital marketing
+2024-11-06 08:06:03.604 | INFO     | __main__:search_ads_library:150 - Waiting for page to load completely...
+2024-11-06 08:06:07.415 | INFO     | __main__:search_ads_library:155 - Setting country to United States...
+2024-11-06 08:06:25.711 | INFO     | __main__:search_ads_library:193 - Setting ad category...
+2024-11-06 08:06:38.140 | INFO     | __main__:search_ads_library:232 - Searching for keyword: digital marketing
+2024-11-06 08:06:41.257 | INFO     | __main__:search_ads_library:244 - Entered search term: digital marketing
+2024-11-06 08:06:46.258 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 08:07:01.164 | INFO     | __main__:extract_profile_links:92 - Attempting to click company name...
+2024-11-06 08:07:01.184 | INFO     | __main__:extract_profile_links:97 - Clicked company name
+2024-11-06 08:07:04.185 | INFO     | __main__:extract_profile_links:102 - Found 1 pages/tabs
+2024-11-06 08:07:04.186 | WARNING  | __main__:extract_profile_links:118 - No new tab was opened after clicking
+2024-11-06 08:07:04.186 | INFO     | __main__:extract_profile_links:134 - Saved 0 unique profile links to results/profile_links_20241106_080704.txt
+2024-11-06 08:07:04.187 | INFO     | __main__:search_ads_library:251 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:07:04.410 | INFO     | __main__:search_ads_library:255 - Saved screenshot for: digital marketing
+2024-11-06 08:08:14.422 | INFO     | __main__:main:273 - Facebook Ads Collector initialized successfully
+2024-11-06 08:08:18.170 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 08:08:18.170 | INFO     | __main__:main:277 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:08:18.873 | INFO     | __main__:search_ads_library:146 - Searching for keyword: digital marketing
+2024-11-06 08:08:21.484 | INFO     | __main__:search_ads_library:150 - Waiting for page to load completely...
+2024-11-06 08:08:25.262 | INFO     | __main__:search_ads_library:155 - Setting country to United States...
+2024-11-06 08:08:40.107 | INFO     | __main__:search_ads_library:193 - Setting ad category...
+2024-11-06 08:08:52.321 | INFO     | __main__:search_ads_library:232 - Searching for keyword: digital marketing
+2024-11-06 08:08:55.643 | INFO     | __main__:search_ads_library:244 - Entered search term: digital marketing
+2024-11-06 08:09:00.645 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 08:09:19.105 | ERROR    | __main__:extract_profile_links:121 - Error processing company: 1001 AttributeNotFoundError: 
+            "get_attribute" not found in AgentQL response node:
+            {
+  "company_link": {
+    "href": {
+      "role": "link",
+      "tf623_id": "9533",
+      "html_tag": "a",
+      "name": "https://wa.link/xvivta",
+      "attributes": {
+        "target": "_blank",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2Fxvivta&h=AT0SImRe-U2H8iynHPvgHHhL7AFIA-zNxRdrZxd8MFmUJxVQy4iT6uC4rhQrz-Ox8W_-XDOGeADqsyys0kz6B2zxIC2FegCVP6ByxYum1R4xb-vsU4LK6NVwPcIwWMdy14sFvUEggX9j8Wqbke2vRA",
+        "rel": "nofollow noreferrer",
+        "data-lynx-mode": "hover"
+      }
+    },
+    "text": {
+      "role": "text",
+      "tf623_id": "9549",
+      "html_tag": "div",
+      "name": "Triada Marketing Digital",
+      "attributes": {
+        "class": "_4ik4 _4ik5"
+      }
+    }
+  }
+}
+            There could be a few reasons for this:
+            1. The element you are trying to access was not part of the original query. Make sure there are no typos in the name of the element you are trying to access. 
+
+            Query:
+            company_link(clickable link element above "Sponsored" text) {
+  href
+  text
+}
+
+            Note that empty spaces and new lines are used to indicate distinct elements. Do verify that you are using empty spaces and new lines correctly in your query. If you want to use multiple words to describe the same element, please use underscores instead. I.e. "search_button".
+
+            2. You may be trying to execute an action on a container node. I.e. the following would raise this error:
+            Query:
+            {
+                footer {
+                    some_link
+                }
+            }
+
+            response.footer.click()
+
+            In the above example, footer is a container node and you are trying to click on it. You should access the child node instead. I.e. response.footer.some_link.click()
+
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:09:19.108 | INFO     | __main__:extract_profile_links:134 - Saved 0 unique profile links to results/profile_links_20241106_080919.txt
+2024-11-06 08:09:19.109 | INFO     | __main__:search_ads_library:251 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:09:19.331 | INFO     | __main__:search_ads_library:255 - Saved screenshot for: digital marketing
+2024-11-06 08:16:23.474 | INFO     | __main__:main:252 - Facebook Ads Collector initialized successfully
+2024-11-06 08:16:33.445 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 08:16:33.445 | INFO     | __main__:main:256 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:16:34.161 | INFO     | __main__:search_ads_library:125 - Searching for keyword: digital marketing
+2024-11-06 08:16:36.182 | INFO     | __main__:search_ads_library:129 - Waiting for page to load completely...
+2024-11-06 08:16:40.318 | INFO     | __main__:search_ads_library:134 - Setting country to United States...
+2024-11-06 08:16:53.388 | INFO     | __main__:search_ads_library:172 - Setting ad category...
+2024-11-06 08:17:05.552 | INFO     | __main__:search_ads_library:211 - Searching for keyword: digital marketing
+2024-11-06 08:17:09.491 | INFO     | __main__:search_ads_library:223 - Entered search term: digital marketing
+2024-11-06 08:17:14.492 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 08:17:28.680 | ERROR    | __main__:extract_profile_links:117 - Error extracting profile links: This node is not a list
+2024-11-06 08:17:28.904 | ERROR    | __main__:search_ads_library:237 - Error during ads library search: This node is not a list
+2024-11-06 08:17:29.239 | ERROR    | __main__:main:293 - Failed to initialize the application: This node is not a list
+2024-11-06 08:18:37.037 | INFO     | __main__:main:248 - Facebook Ads Collector initialized successfully
+2024-11-06 08:18:38.304 | INFO     | __main__:get_user_input:54 - Validated keywords: ['digital marketing']
+2024-11-06 08:18:38.305 | INFO     | __main__:main:252 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:18:39.032 | INFO     | __main__:search_ads_library:121 - Searching for keyword: digital marketing
+2024-11-06 08:18:41.439 | INFO     | __main__:search_ads_library:125 - Waiting for page to load completely...
+2024-11-06 08:18:45.418 | INFO     | __main__:search_ads_library:130 - Setting country to United States...
+2024-11-06 08:19:00.304 | INFO     | __main__:search_ads_library:168 - Setting ad category...
+2024-11-06 08:19:11.696 | INFO     | __main__:search_ads_library:207 - Searching for keyword: digital marketing
+2024-11-06 08:19:15.022 | INFO     | __main__:search_ads_library:219 - Entered search term: digital marketing
+2024-11-06 08:19:20.024 | INFO     | __main__:extract_profile_links:70 - Extracting profile links from search results...
+2024-11-06 08:19:35.363 | ERROR    | __main__:extract_profile_links:113 - Error extracting profile links: 1001 AttributeNotFoundError: 
+            "get_attribute" not found in AgentQL response node:
+            {
+  "company_link": {
+    "href": {
+      "role": "link",
+      "tf623_id": "9533",
+      "html_tag": "a",
+      "name": "https://wa.link/xvivta",
+      "attributes": {
+        "target": "_blank",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2Fxvivta&h=AT2316GfJlYX6vMUkWHBfh-h-U3QYHI_kBOtUaErLCxyR-pS9Aor4UqgwkLYuXhJAEFLDtQoMocJzQJm17leZKJ6IhtPMwGX9PjMKs7EDyXOPOzXbliKniYnztAO0Cge0Eh2EZV1igWUk1PnxcDDuw",
+        "rel": "nofollow noreferrer",
+        "data-lynx-mode": "hover"
+      }
+    },
+    "text": {
+      "role": "text",
+      "tf623_id": "9534",
+      "html_tag": "span",
+      "name": "\u00f3 \ud83c\uddfa\ud83c\uddf2",
+      "attributes": {}
+    }
+  }
+}
+            There could be a few reasons for this:
+            1. The element you are trying to access was not part of the original query. Make sure there are no typos in the name of the element you are trying to access. 
+
+            Query:
+            company_link(a element above text "Sponsored" or "Sponsorowane") {
+  href
+  text
+}
+
+            Note that empty spaces and new lines are used to indicate distinct elements. Do verify that you are using empty spaces and new lines correctly in your query. If you want to use multiple words to describe the same element, please use underscores instead. I.e. "search_button".
+
+            2. You may be trying to execute an action on a container node. I.e. the following would raise this error:
+            Query:
+            {
+                footer {
+                    some_link
+                }
+            }
+
+            response.footer.click()
+
+            In the above example, footer is a container node and you are trying to click on it. You should access the child node instead. I.e. response.footer.some_link.click()
+
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:19:35.576 | ERROR    | __main__:search_ads_library:233 - Error during ads library search: 1001 AttributeNotFoundError: 
+            "get_attribute" not found in AgentQL response node:
+            {
+  "company_link": {
+    "href": {
+      "role": "link",
+      "tf623_id": "9533",
+      "html_tag": "a",
+      "name": "https://wa.link/xvivta",
+      "attributes": {
+        "target": "_blank",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2Fxvivta&h=AT2316GfJlYX6vMUkWHBfh-h-U3QYHI_kBOtUaErLCxyR-pS9Aor4UqgwkLYuXhJAEFLDtQoMocJzQJm17leZKJ6IhtPMwGX9PjMKs7EDyXOPOzXbliKniYnztAO0Cge0Eh2EZV1igWUk1PnxcDDuw",
+        "rel": "nofollow noreferrer",
+        "data-lynx-mode": "hover"
+      }
+    },
+    "text": {
+      "role": "text",
+      "tf623_id": "9534",
+      "html_tag": "span",
+      "name": "\u00f3 \ud83c\uddfa\ud83c\uddf2",
+      "attributes": {}
+    }
+  }
+}
+            There could be a few reasons for this:
+            1. The element you are trying to access was not part of the original query. Make sure there are no typos in the name of the element you are trying to access. 
+
+            Query:
+            company_link(a element above text "Sponsored" or "Sponsorowane") {
+  href
+  text
+}
+
+            Note that empty spaces and new lines are used to indicate distinct elements. Do verify that you are using empty spaces and new lines correctly in your query. If you want to use multiple words to describe the same element, please use underscores instead. I.e. "search_button".
+
+            2. You may be trying to execute an action on a container node. I.e. the following would raise this error:
+            Query:
+            {
+                footer {
+                    some_link
+                }
+            }
+
+            response.footer.click()
+
+            In the above example, footer is a container node and you are trying to click on it. You should access the child node instead. I.e. response.footer.some_link.click()
+
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:19:35.893 | ERROR    | __main__:main:289 - Failed to initialize the application: 1001 AttributeNotFoundError: 
+            "get_attribute" not found in AgentQL response node:
+            {
+  "company_link": {
+    "href": {
+      "role": "link",
+      "tf623_id": "9533",
+      "html_tag": "a",
+      "name": "https://wa.link/xvivta",
+      "attributes": {
+        "target": "_blank",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2Fxvivta&h=AT2316GfJlYX6vMUkWHBfh-h-U3QYHI_kBOtUaErLCxyR-pS9Aor4UqgwkLYuXhJAEFLDtQoMocJzQJm17leZKJ6IhtPMwGX9PjMKs7EDyXOPOzXbliKniYnztAO0Cge0Eh2EZV1igWUk1PnxcDDuw",
+        "rel": "nofollow noreferrer",
+        "data-lynx-mode": "hover"
+      }
+    },
+    "text": {
+      "role": "text",
+      "tf623_id": "9534",
+      "html_tag": "span",
+      "name": "\u00f3 \ud83c\uddfa\ud83c\uddf2",
+      "attributes": {}
+    }
+  }
+}
+            There could be a few reasons for this:
+            1. The element you are trying to access was not part of the original query. Make sure there are no typos in the name of the element you are trying to access. 
+
+            Query:
+            company_link(a element above text "Sponsored" or "Sponsorowane") {
+  href
+  text
+}
+
+            Note that empty spaces and new lines are used to indicate distinct elements. Do verify that you are using empty spaces and new lines correctly in your query. If you want to use multiple words to describe the same element, please use underscores instead. I.e. "search_button".
+
+            2. You may be trying to execute an action on a container node. I.e. the following would raise this error:
+            Query:
+            {
+                footer {
+                    some_link
+                }
+            }
+
+            response.footer.click()
+
+            In the above example, footer is a container node and you are trying to click on it. You should access the child node instead. I.e. response.footer.some_link.click()
+
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:21:12.664 | INFO     | __main__:main:261 - Facebook Ads Collector initialized successfully
+2024-11-06 08:21:13.777 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:21:13.777 | INFO     | __main__:main:265 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:21:14.509 | INFO     | __main__:search_ads_library:134 - Searching for keyword: digital marketing
+2024-11-06 08:21:16.951 | INFO     | __main__:search_ads_library:138 - Waiting for page to load completely...
+2024-11-06 08:21:20.726 | INFO     | __main__:search_ads_library:143 - Setting country to United States...
+2024-11-06 08:21:34.983 | INFO     | __main__:search_ads_library:181 - Setting ad category...
+2024-11-06 08:21:46.172 | INFO     | __main__:search_ads_library:220 - Searching for keyword: digital marketing
+2024-11-06 08:21:49.971 | INFO     | __main__:search_ads_library:232 - Entered search term: digital marketing
+2024-11-06 08:21:54.973 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:22:09.728 | ERROR    | __main__:extract_profile_links:126 - Error extracting profile links: argument of type 'Locator' is not iterable
+2024-11-06 08:22:10.010 | ERROR    | __main__:search_ads_library:246 - Error during ads library search: argument of type 'Locator' is not iterable
+2024-11-06 08:22:10.325 | ERROR    | __main__:main:302 - Failed to initialize the application: argument of type 'Locator' is not iterable
+2024-11-06 08:23:02.368 | INFO     | __main__:main:256 - Facebook Ads Collector initialized successfully
+2024-11-06 08:23:03.546 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:23:03.546 | INFO     | __main__:main:260 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:23:04.291 | INFO     | __main__:search_ads_library:129 - Searching for keyword: digital marketing
+2024-11-06 08:23:06.490 | INFO     | __main__:search_ads_library:133 - Waiting for page to load completely...
+2024-11-06 08:23:10.510 | INFO     | __main__:search_ads_library:138 - Setting country to United States...
+2024-11-06 08:23:24.561 | INFO     | __main__:search_ads_library:176 - Setting ad category...
+2024-11-06 08:23:36.381 | INFO     | __main__:search_ads_library:215 - Searching for keyword: digital marketing
+2024-11-06 08:23:39.142 | INFO     | __main__:search_ads_library:227 - Entered search term: digital marketing
+2024-11-06 08:23:44.144 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:23:58.667 | INFO     | __main__:extract_profile_links:117 - Saved 0 unique profile links to results/profile_links_20241106_082358.txt
+2024-11-06 08:23:58.668 | INFO     | __main__:search_ads_library:234 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:23:58.932 | INFO     | __main__:search_ads_library:238 - Saved screenshot for: digital marketing
+2024-11-06 08:25:36.168 | INFO     | __main__:main:258 - Facebook Ads Collector initialized successfully
+2024-11-06 08:25:37.430 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:25:37.430 | INFO     | __main__:main:262 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:25:38.137 | INFO     | __main__:search_ads_library:131 - Searching for keyword: digital marketing
+2024-11-06 08:25:40.117 | INFO     | __main__:search_ads_library:135 - Waiting for page to load completely...
+2024-11-06 08:25:44.361 | INFO     | __main__:search_ads_library:140 - Setting country to United States...
+2024-11-06 08:25:58.569 | INFO     | __main__:search_ads_library:178 - Setting ad category...
+2024-11-06 08:26:09.276 | INFO     | __main__:search_ads_library:217 - Searching for keyword: digital marketing
+2024-11-06 08:26:12.046 | INFO     | __main__:search_ads_library:229 - Entered search term: digital marketing
+2024-11-06 08:26:17.048 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:26:28.949 | ERROR    | __main__:extract_profile_links:123 - Error extracting profile links: This node is not a list
+2024-11-06 08:26:29.157 | ERROR    | __main__:search_ads_library:243 - Error during ads library search: This node is not a list
+2024-11-06 08:26:29.512 | ERROR    | __main__:main:299 - Failed to initialize the application: This node is not a list
+2024-11-06 08:27:18.818 | INFO     | __main__:main:259 - Facebook Ads Collector initialized successfully
+2024-11-06 08:27:20.115 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:27:20.116 | INFO     | __main__:main:263 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:27:20.876 | INFO     | __main__:search_ads_library:132 - Searching for keyword: digital marketing
+2024-11-06 08:27:23.404 | INFO     | __main__:search_ads_library:136 - Waiting for page to load completely...
+2024-11-06 08:27:27.124 | INFO     | __main__:search_ads_library:141 - Setting country to United States...
+2024-11-06 08:27:41.955 | INFO     | __main__:search_ads_library:179 - Setting ad category...
+2024-11-06 08:27:53.618 | INFO     | __main__:search_ads_library:218 - Searching for keyword: digital marketing
+2024-11-06 08:27:56.890 | INFO     | __main__:search_ads_library:230 - Entered search term: digital marketing
+2024-11-06 08:28:01.892 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:28:13.603 | INFO     | __main__:extract_profile_links:120 - Saved 0 unique profile links to results/profile_links_20241106_082813.txt
+2024-11-06 08:28:13.603 | INFO     | __main__:search_ads_library:237 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:28:13.853 | INFO     | __main__:search_ads_library:241 - Saved screenshot for: digital marketing
+2024-11-06 08:30:34.876 | INFO     | __main__:main:252 - Facebook Ads Collector initialized successfully
+2024-11-06 08:30:36.245 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:30:36.246 | INFO     | __main__:main:256 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:30:36.951 | INFO     | __main__:search_ads_library:125 - Searching for keyword: digital marketing
+2024-11-06 08:30:38.845 | INFO     | __main__:search_ads_library:129 - Waiting for page to load completely...
+2024-11-06 08:30:43.138 | INFO     | __main__:search_ads_library:134 - Setting country to United States...
+2024-11-06 08:30:56.406 | INFO     | __main__:search_ads_library:172 - Setting ad category...
+2024-11-06 08:31:08.463 | INFO     | __main__:search_ads_library:211 - Searching for keyword: digital marketing
+2024-11-06 08:31:11.164 | INFO     | __main__:search_ads_library:223 - Entered search term: digital marketing
+2024-11-06 08:31:16.165 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:31:27.353 | ERROR    | __main__:extract_profile_links:117 - Error extracting profile links: argument of type 'Locator' is not iterable
+2024-11-06 08:31:27.566 | ERROR    | __main__:search_ads_library:237 - Error during ads library search: argument of type 'Locator' is not iterable
+2024-11-06 08:31:27.921 | ERROR    | __main__:main:293 - Failed to initialize the application: argument of type 'Locator' is not iterable
+2024-11-06 08:33:25.814 | INFO     | __main__:main:256 - Facebook Ads Collector initialized successfully
+2024-11-06 08:33:31.848 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:33:31.848 | INFO     | __main__:main:260 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:33:32.587 | INFO     | __main__:search_ads_library:129 - Searching for keyword: digital marketing
+2024-11-06 08:33:35.098 | INFO     | __main__:search_ads_library:133 - Waiting for page to load completely...
+2024-11-06 08:33:38.984 | INFO     | __main__:search_ads_library:138 - Setting country to United States...
+2024-11-06 08:33:55.999 | INFO     | __main__:search_ads_library:176 - Setting ad category...
+2024-11-06 08:34:08.591 | INFO     | __main__:search_ads_library:215 - Searching for keyword: digital marketing
+2024-11-06 08:34:11.703 | INFO     | __main__:search_ads_library:227 - Entered search term: digital marketing
+2024-11-06 08:34:16.705 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:34:21.706 | ERROR    | __main__:extract_profile_links:121 - Error extracting profile links: 1010 QuerySyntaxError: Unexpected character : at row 5, column 30 in AgentQL query.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:34:22.086 | ERROR    | __main__:search_ads_library:241 - Error during ads library search: 1010 QuerySyntaxError: Unexpected character : at row 5, column 30 in AgentQL query.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:34:22.438 | ERROR    | __main__:main:297 - Failed to initialize the application: 1010 QuerySyntaxError: Unexpected character : at row 5, column 30 in AgentQL query.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:35:19.659 | INFO     | __main__:main:256 - Facebook Ads Collector initialized successfully
+2024-11-06 08:35:20.912 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:35:20.912 | INFO     | __main__:main:260 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:35:21.654 | INFO     | __main__:search_ads_library:129 - Searching for keyword: digital marketing
+2024-11-06 08:35:23.982 | INFO     | __main__:search_ads_library:133 - Waiting for page to load completely...
+2024-11-06 08:35:27.903 | INFO     | __main__:search_ads_library:138 - Setting country to United States...
+2024-11-06 08:35:41.019 | INFO     | __main__:search_ads_library:176 - Setting ad category...
+2024-11-06 08:35:51.329 | INFO     | __main__:search_ads_library:215 - Searching for keyword: digital marketing
+2024-11-06 08:35:54.069 | INFO     | __main__:search_ads_library:227 - Entered search term: digital marketing
+2024-11-06 08:35:59.070 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:36:10.778 | INFO     | __main__:extract_profile_links:101 - Found company: <Locator frame=<Frame name= url='https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=digital%20marketing&search_type=keyword_unordered'> selector="[tf623_id='9533']"> with URL: <Locator frame=<Frame name= url='https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=digital%20marketing&search_type=keyword_unordered'> selector="[tf623_id='9533']">
+2024-11-06 08:36:10.779 | INFO     | __main__:extract_profile_links:117 - Saved 1 unique profile links to results/profile_links_20241106_083610.txt
+2024-11-06 08:36:10.780 | INFO     | __main__:search_ads_library:234 - Found 1 unique profile links for keyword: digital marketing
+2024-11-06 08:36:11.012 | INFO     | __main__:search_ads_library:238 - Saved screenshot for: digital marketing
+2024-11-06 08:38:15.587 | INFO     | __main__:main:259 - Facebook Ads Collector initialized successfully
+2024-11-06 08:38:17.794 | ERROR    | __main__:get_user_input:59 - Invalid input: 1 validation error for SearchParameters
+keywords
+  Value error, Keyword 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=digital%20marketing&search_type=keyword_unordered' must be between 2 and 50 characters [type=value_error, input_value=['https://www.facebook.co...type=keyword_unordered'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/value_error
+2024-11-06 08:38:22.912 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:38:22.913 | INFO     | __main__:main:263 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:38:23.628 | INFO     | __main__:search_ads_library:132 - Searching for keyword: digital marketing
+2024-11-06 08:38:26.351 | INFO     | __main__:search_ads_library:136 - Waiting for page to load completely...
+2024-11-06 08:38:30.062 | INFO     | __main__:search_ads_library:141 - Setting country to United States...
+2024-11-06 08:38:43.153 | INFO     | __main__:search_ads_library:179 - Setting ad category...
+2024-11-06 08:38:53.437 | INFO     | __main__:search_ads_library:218 - Searching for keyword: digital marketing
+2024-11-06 08:38:56.191 | INFO     | __main__:search_ads_library:230 - Entered search term: digital marketing
+2024-11-06 08:39:01.193 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:39:06.194 | ERROR    | __main__:extract_profile_links:124 - Error extracting profile links: 1010 QuerySyntaxError: Invalid character in query description.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:39:06.613 | ERROR    | __main__:search_ads_library:244 - Error during ads library search: 1010 QuerySyntaxError: Invalid character in query description.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:39:06.972 | ERROR    | __main__:main:300 - Failed to initialize the application: 1010 QuerySyntaxError: Invalid character in query description.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:40:36.254 | INFO     | __main__:main:256 - Facebook Ads Collector initialized successfully
+2024-11-06 08:40:37.452 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:40:37.452 | INFO     | __main__:main:260 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:40:38.292 | INFO     | __main__:search_ads_library:129 - Searching for keyword: digital marketing
+2024-11-06 08:40:40.884 | INFO     | __main__:search_ads_library:133 - Waiting for page to load completely...
+2024-11-06 08:40:44.587 | INFO     | __main__:search_ads_library:138 - Setting country to United States...
+2024-11-06 08:40:57.571 | INFO     | __main__:search_ads_library:176 - Setting ad category...
+2024-11-06 08:41:09.605 | INFO     | __main__:search_ads_library:215 - Searching for keyword: digital marketing
+2024-11-06 08:41:12.369 | INFO     | __main__:search_ads_library:227 - Entered search term: digital marketing
+2024-11-06 08:41:17.370 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:41:26.021 | INFO     | __main__:extract_profile_links:101 - Found company: <Locator frame=<Frame name= url='https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UM&media_type=all&q=digital%20marketing&search_type=keyword_unordered'> selector="[tf623_id='8772']"> with URL: <Locator frame=<Frame name= url='https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UM&media_type=all&q=digital%20marketing&search_type=keyword_unordered'> selector="[tf623_id='8772']">
+2024-11-06 08:41:26.023 | INFO     | __main__:extract_profile_links:117 - Saved 1 unique profile links to results/profile_links_20241106_084126.txt
+2024-11-06 08:41:26.023 | INFO     | __main__:search_ads_library:234 - Found 1 unique profile links for keyword: digital marketing
+2024-11-06 08:41:26.204 | INFO     | __main__:search_ads_library:238 - Saved screenshot for: digital marketing
+2024-11-06 08:43:16.420 | INFO     | __main__:main:255 - Facebook Ads Collector initialized successfully
+2024-11-06 08:43:24.272 | INFO     | __main__:get_user_input:55 - Validated keywords: ['car parts']
+2024-11-06 08:43:24.273 | INFO     | __main__:main:259 - Starting search with parameters: ['car parts']
+2024-11-06 08:43:25.009 | INFO     | __main__:search_ads_library:128 - Searching for keyword: car parts
+2024-11-06 08:43:27.555 | INFO     | __main__:search_ads_library:132 - Waiting for page to load completely...
+2024-11-06 08:43:31.289 | INFO     | __main__:search_ads_library:137 - Setting country to United States...
+2024-11-06 08:43:45.296 | INFO     | __main__:search_ads_library:175 - Setting ad category...
+2024-11-06 08:43:55.391 | INFO     | __main__:search_ads_library:214 - Searching for keyword: car parts
+2024-11-06 08:43:57.983 | INFO     | __main__:search_ads_library:226 - Entered search term: car parts
+2024-11-06 08:44:02.985 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:44:16.663 | INFO     | __main__:extract_profile_links:116 - Saved 0 unique profile links to results/profile_links_20241106_084416.txt
+2024-11-06 08:44:16.663 | INFO     | __main__:search_ads_library:233 - Found 0 unique profile links for keyword: car parts
+2024-11-06 08:44:16.897 | INFO     | __main__:search_ads_library:237 - Saved screenshot for: car parts
+2024-11-06 08:45:24.139 | INFO     | __main__:main:251 - Facebook Ads Collector initialized successfully
+2024-11-06 08:45:31.150 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:45:31.150 | INFO     | __main__:main:255 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:45:31.874 | INFO     | __main__:search_ads_library:124 - Searching for keyword: digital marketing
+2024-11-06 08:45:34.332 | INFO     | __main__:search_ads_library:128 - Waiting for page to load completely...
+2024-11-06 08:45:38.067 | INFO     | __main__:search_ads_library:133 - Setting country to United States...
+2024-11-06 08:45:51.944 | INFO     | __main__:search_ads_library:171 - Setting ad category...
+2024-11-06 08:46:02.219 | INFO     | __main__:search_ads_library:210 - Searching for keyword: digital marketing
+2024-11-06 08:46:04.935 | INFO     | __main__:search_ads_library:222 - Entered search term: digital marketing
+2024-11-06 08:46:09.937 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:46:21.341 | INFO     | __main__:extract_profile_links:112 - Saved 0 unique profile links to results/profile_links_20241106_084621.txt
+2024-11-06 08:46:21.341 | INFO     | __main__:search_ads_library:229 - Found 0 unique profile links for keyword: digital marketing
+2024-11-06 08:46:21.562 | INFO     | __main__:search_ads_library:233 - Saved screenshot for: digital marketing
+2024-11-06 08:47:41.653 | INFO     | __main__:main:257 - Facebook Ads Collector initialized successfully
+2024-11-06 08:47:47.040 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:47:47.041 | INFO     | __main__:main:261 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:47:47.791 | INFO     | __main__:search_ads_library:130 - Searching for keyword: digital marketing
+2024-11-06 08:47:50.668 | INFO     | __main__:search_ads_library:134 - Waiting for page to load completely...
+2024-11-06 08:47:54.380 | INFO     | __main__:search_ads_library:139 - Setting country to United States...
+2024-11-06 08:48:07.239 | INFO     | __main__:search_ads_library:177 - Setting ad category...
+2024-11-06 08:48:17.306 | INFO     | __main__:search_ads_library:216 - Searching for keyword: digital marketing
+2024-11-06 08:48:20.046 | INFO     | __main__:search_ads_library:228 - Entered search term: digital marketing
+2024-11-06 08:48:25.048 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:48:42.827 | ERROR    | __main__:extract_profile_links:122 - Error extracting profile links: This node is not a list
+2024-11-06 08:48:43.091 | ERROR    | __main__:search_ads_library:242 - Error during ads library search: This node is not a list
+2024-11-06 08:48:43.442 | ERROR    | __main__:main:298 - Failed to initialize the application: This node is not a list
+2024-11-06 08:49:46.732 | INFO     | __main__:main:260 - Facebook Ads Collector initialized successfully
+2024-11-06 08:49:50.366 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:49:50.366 | INFO     | __main__:main:264 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:49:51.099 | INFO     | __main__:search_ads_library:133 - Searching for keyword: digital marketing
+2024-11-06 08:49:53.459 | INFO     | __main__:search_ads_library:137 - Waiting for page to load completely...
+2024-11-06 08:49:57.364 | INFO     | __main__:search_ads_library:142 - Setting country to United States...
+2024-11-06 08:50:10.278 | INFO     | __main__:search_ads_library:180 - Setting ad category...
+2024-11-06 08:50:20.649 | INFO     | __main__:search_ads_library:219 - Searching for keyword: digital marketing
+2024-11-06 08:50:23.457 | INFO     | __main__:search_ads_library:231 - Entered search term: digital marketing
+2024-11-06 08:50:28.458 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:50:33.459 | ERROR    | __main__:extract_profile_links:125 - Error extracting profile links: 1010 QuerySyntaxError: Unexpected character : at row 3, column 23 in AgentQL query.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:50:33.658 | ERROR    | __main__:search_ads_library:245 - Error during ads library search: 1010 QuerySyntaxError: Unexpected character : at row 3, column 23 in AgentQL query.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:50:33.955 | ERROR    | __main__:main:301 - Failed to initialize the application: 1010 QuerySyntaxError: Unexpected character : at row 3, column 23 in AgentQL query.
+If the issue persists, please reach out for further assistance through support@tinyfish.io or Tiny Fish Discord channel https://discord.gg/agentql.
+
+2024-11-06 08:51:05.772 | INFO     | __main__:main:258 - Facebook Ads Collector initialized successfully
+2024-11-06 08:51:10.174 | INFO     | __main__:get_user_input:55 - Validated keywords: ['digital marketing']
+2024-11-06 08:51:10.174 | INFO     | __main__:main:262 - Starting search with parameters: ['digital marketing']
+2024-11-06 08:51:10.908 | INFO     | __main__:search_ads_library:131 - Searching for keyword: digital marketing
+2024-11-06 08:51:13.324 | INFO     | __main__:search_ads_library:135 - Waiting for page to load completely...
+2024-11-06 08:51:17.223 | INFO     | __main__:search_ads_library:140 - Setting country to United States...
+2024-11-06 08:51:32.530 | INFO     | __main__:search_ads_library:178 - Setting ad category...
+2024-11-06 08:51:42.863 | INFO     | __main__:search_ads_library:217 - Searching for keyword: digital marketing
+2024-11-06 08:51:45.607 | INFO     | __main__:search_ads_library:229 - Entered search term: digital marketing
+2024-11-06 08:51:50.608 | INFO     | __main__:extract_profile_links:71 - Extracting profile links from search results...
+2024-11-06 08:52:02.835 | ERROR    | __main__:extract_profile_links:123 - Error extracting profile links: This node is not a list
+2024-11-06 08:52:03.062 | ERROR    | __main__:search_ads_library:243 - Error during ads library search: This node is not a list
+2024-11-06 08:52:03.392 | ERROR    | __main__:main:299 - Failed to initialize the application: This node is not a list

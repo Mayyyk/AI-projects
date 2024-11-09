@@ -1,0 +1,4 @@
+- zrozumieć kod
+- dodać więcej logów
+- połączyć z frontend
+- Zapytać o ten krok bardziej dokładnie, użyć o1, 
