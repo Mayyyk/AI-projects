@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Productivity Redirect",
+  "version": "1.0",
+  "permissions": ["webNavigation", "tabs"],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.tasks.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [{
+    "resources": ["redirect.html"],
+    "matches": ["<all_urls>"]
+  }]
+}

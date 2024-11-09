@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .half {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+    .tasks {
+      background: linear-gradient(135deg, #6366f1, #3b82f6);
+    }
+    .youtube {
+      background: linear-gradient(135deg, #f43f5e, #ef4444);
+    }
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.125rem;
+      border: 2px solid white;
+      border-radius: 9999px;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    button:hover {
+      background: white;
+      color: #1f2937;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="half tasks">
+      <button>Focus Mode</button>
+    </div>
+    <div class="half youtube">
+      <button>Break Time</button>
+    </div>
+  </div>
+  <script src="redirect.js"></script>
+</body>
+</html>
